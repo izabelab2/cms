@@ -1,0 +1,35 @@
+<?php
+    require_once 'Database.php';
+    require_once 'Input.php';
+    class Photo extends Database
+    {
+        
+
+        
+
+        function editPhoto(int $id, $input_gallery_name, $gallery_folder)
+        {
+            $input = new Input();
+            
+            $name = $input_gallery_name;
+
+            if (($_FILES['file']['tmp_name'])) {
+                $file = 'upload/'.$gallery_folder.'/'.$fileName;
+                $this->savePhoto($gallery_folder);
+                $updateFoto = ", foto='".$file."'";
+            } else {
+                $updateFoto = "";
+            }
+            
+            if (null !== ($input->post('visible'))) {
+                $visible = 1;
+            } else{
+                $visible = 0;
+            }
+            
+            $edit = "UPDATE gallery SET name='".$name."', visible='".$visible."' $updateFoto WHERE id = ".$id."";
+            $this->db->query($edit);
+	    }
+
+        
+    }
