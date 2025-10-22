@@ -1,0 +1,86 @@
+*{margin:0;padding:0;text-decoration:none; font-family: 'Playfair Display';}
+article, aside, details, dialog, figcaption, figure, footer, header, main, nav, section {display: block;}
+audio, canvas, embed, keygen, meter, progress, video {display: inline-block;}
+.wrapper{margin:0 auto; width:1140px; position:relative; padding-bottom:40px}
+.wrapper::after{content:""; display:block; clear:both}
+body{font-family: 'Playfair Display', serif; font-size:16px}
+a{color:inherit}
+html, body, .body_log .wrapper{height: 100%;}
+
+.submit{width:130px; height:50px; background:#3377ff; color:#fff; border:1px solid transparent; margin-top:10px; cursor:pointer;-webkit-transition:all 300ms linear;-moz-transition:all 300ms linear;-ms-transition:all 300ms linear;-o-transition:all 300ms linear;transition:all 300ms linear;}
+.submit:hover{background:#fff; color:#3377ff; border:1px solid #3377ff;} /* sprawdz czy dziala!!!! */
+.inputs{width:600px; height:50px; padding:5px 10px;margin-bottom:10px;border:1px solid #3377ff; display:block}
+.textareas{width:100%; height:600px; resize:none;margin-bottom:10px;border:1px solid #3377ff; display:block;margin-bottom:20px}
+.click{display:inline-block; padding:5px 10px; background:#F34343; color:#fff; border:1px solid transparent; cursor:pointer;-webkit-transition:all 300ms linear;-moz-transition:all 300ms linear;-ms-transition:all 300ms linear;-o-transition:all 300ms linear;transition:all 300ms linear;}
+.click:hover{background:#fff; color:#F34343; border:1px solid #F34343;}
+.mce-tinymce.mce-container.mce-panel { border: 1px solid #3377ff !important;}
+.edit_button{background:#4A9129}
+.edit_button:hover{color:#4A9129;border-color:#4A9129}
+
+/** log in **/
+.body_log{background:#f2f2f2}
+.logowanie{height:100%; width:100%; text-align:center}
+.log_form{padding-bottom:15px}
+.log_form input{width:200px; height:40px; padding:10px 20px; border:1px solid #ff4d4d;}
+.log_form input[type="submit"]{width:100px; border:1px solid transparent; background:#ff4d4d; color:#fff; cursor:pointer;-webkit-transition:all 300ms linear;-moz-transition:all 300ms linear;-ms-transition:all 300ms linear;-o-transition:all 300ms linear;transition:all 300ms linear;}
+.log_form input[type="submit"]:hover{border:1px solid #ff4d4d; background:#fff; color:#ff4d4d; }
+.chp_link{-webkit-transition:color 300ms linear;-moz-transition:color 300ms linear;-ms-transition:color 300ms linear;-o-transition:color 300ms linear;transition:color 300ms linear;}
+.chp_link:hover{color:#ff4d4d}
+
+/** log in **/
+
+/** change password **/
+.change_password{height:100%; width:100%; text-align:center}
+/** change password **/
+
+/** header **/
+.header_wrapper{padding:20px 0; border-bottom:1px solid #eee; margin-bottom:40px}
+.header_profil{float:left; background:#2196f3}
+.header_loguot{float:right; }
+
+/** header **/
+
+
+/** cms site **/
+.a_left_side{width:245px; float:left}
+.a_right_side{width:850px; float:right}
+.a_left_menu_wrap > a{display:block}
+.alm_name{padding: 15px 0px; background: #4d4dff; color: #fff; border: 1px solid transparent; text-align:center;}
+.alm_level2 a{padding:10px 0; text-align:center; background:#d2dcf3; color:#888; cursor:pointer;-webkit-transition: all 300ms linear;-moz-transition: all 300ms linear; -ms-transition: all 300ms linear; -o-transition: all 300ms linear; transition: all 300ms linear; display:block}
+.alm_level2 a:hover{background:#c7d7fb}
+.alm_level2 a:first-child{padding-top:20px}
+.alm_level2 a:last-child{padding-bottom:20px}
+.a_right_side h1{margin-bottom:30px}
+.visibility_wrap{margin:20px 0}
+
+.site_listing_table{margin-top:20px; border:1px solid #000; border-collapse: collapse; width:100%}
+.site_listing_names{border-bottom:1px solid rgba(0,0,0,0.2);}
+.site_listing_table th, .site_listing_table td{padding:10px 0;vertical-align:middle; text-align:center;}
+
+.gallery_category_wrapper{margin:10px 0; padding-left:10px}
+.gallery_category_wrapper label{padding-left:5px}
+.gallery_category > p{font-weight:600}
+/** cms site **/
+
+
+.edit_img{max-width:400px; margin:20px 0}
+.cms_gallery_photo_single img{max-width:100px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-webkit-transition:all 300ms linear;-moz-transition:all 300ms linear;-ms-transition:all 300ms linear;-o-transition:all 300ms linear;transition:all 300ms linear;*/
