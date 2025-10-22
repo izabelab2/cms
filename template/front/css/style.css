@@ -1,0 +1,29 @@
+*{margin:0;padding:0;text-decoration:none; font-family: 'Playfair Display';}
+article, aside, details, dialog, figcaption, figure, footer, header, main, nav, section {display: block;}
+audio, canvas, embed, keygen, meter, progress, video {display: inline-block;}
+.wrapper{margin:0 auto; width:1140px; position:relative; }
+.wrapper::after{content:""; display:block; clear:both}
+body{font-family: 'Playfair Display', serif; font-size:16px}
+a{color:inherit}
+body{background:#f3f3f3}
+
+
+
+
+/** TOP START **/
+
+.top_site{background:#fff}
+.top_wrapper {padding: 1.25rem 0; display: flex; }
+.menu_xs{display:none}
+.menu_top nav{display: flex; justify-content: space-around;}
+.menu_top{ flex-grow: 2}
+.logo img{max-width: 100%; height:auto}
+.logo{max-width:10.63rem}
+.menu_top a{padding:2.813rem 0}
+
+
+/** TOP END **/
+
+.gallery_site_wrapper{display:flex; justify-content: space-between; flex-wrap: wrap;}
+.gallery_site_sigle{width:33%;}
+.gallery_site_sigle img{max-width: 100%; height:auto;}
